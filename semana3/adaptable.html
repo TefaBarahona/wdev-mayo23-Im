@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño adaptable</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        /* Para las class se define con .*/
+        .general {
+            position: absolute;
+            width: auto;
+        }
+
+        .header {
+            width: 100%;
+            height: 60px;
+            float: left
+        }
+
+        .main {
+            width: 100%;
+            height: 620px;
+            float: left
+        }
+
+        .menu {
+            width: 30%;
+            height: 620px;
+            float: left
+        }
+        .dashboard {
+            width: 70%;
+            height: 620px;
+            float: left
+        }
+        .footer {
+            width: 100%;
+            height: 60px;
+            float: left
+        }
+        .textoGrande{
+            font-size: large;
+        }
+        .fondoGris{
+            background-color:gray;
+        }
+        .fondoAzul{
+            background-color: blue;
+        }
+        .letraRoja{
+            color:red;
+        }
+        .letraBlanca{
+            color:white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="general">
+        <div class="header">
+            <h1 class="textoGrande fondoAzul letraBlanca">Responsive adaptable</h1>
+        </div>
+        <div class="main"> 
+            <div class="menu fondoGris letraRoja">
+                <ul>
+                    <li>111111</li>
+                    <li>222222</li>
+                    <li>333333</li>
+                    <li>444444</li>
+                </ul>
+            </div>
+            <div class="dashboard fondoAzul letraBlanca">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis adipisci quos quidem error voluptatem ex vel quod eum! Ullam debitis illo architecto nulla incidunt molestiae in reiciendis. Accusantium, repellendus quibusdam!</p>
+            </div>
+        </div>
+        <div class="footer fondoGris">
+            <h2>Pie de pagina</h2>
+        </div>
+
+    </div>
+</body>
+
+</html>
