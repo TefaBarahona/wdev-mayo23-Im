@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Propiedades de la materia</title>
+    <title>La materia</title>
     <style>
-                * {
+        * {
             box-sizing: border-box;
             text-align: center;
         }
@@ -24,70 +25,124 @@
 
         .main {
             width: 100%;
-            height: 620px;
+            height: 1300px;
             float: left
         }
 
         .menu {
             width: 20%;
-            height: 620px;
+            height: 1300px;
             float: left
         }
+
         .dashboard {
-            width: 70%;
+            width: 80%;
             height: 620px;
             float: left
         }
+
         .footer {
             width: 100%;
             height: 60px;
             float: left
         }
-        .textoGrande{
+
+        .textoGrande {
             font-size: large;
         }
-        .fondoVerdeClaro{
-            background-color:rgb(5, 173, 103);
+
+        .fondoVerdeClarito {
+            background-color: rgba(100, 231, 177, 0.692);
         }
-        .fondoVerdeOscuro{
+
+        .fondoVerdeClaro {
+            background-color: rgb(5, 173, 103);
+        }
+
+        .fondoVerdeOscuro {
             background-color: rgba(2, 78, 13, 0.801);
         }
-        .fondoVerde{
+
+        .fondoVerde {
             background-color: rgb(132, 231, 132);
         }
-        .letraVino{
-            color:rgb(54, 2, 2);
+
+        .letraTexto {
+            color: rgb(57, 18, 100);
         }
-        .letraAzulOscuro{
-            color:rgb(13, 36, 43);
+
+        .letraVino {
+            color: rgb(54, 2, 2);
+        }
+
+        .letraAzulOscuro {
+            color: rgb(13, 36, 43);
+        }
+
+        .letarRojoOscuro {
+            color: rgba(255, 0, 0, 0.459);
         }
     </style>
 </head>
+
 <body>
+
     <body>
         <div class="general fondoVerdeClaro">
             <div class="header fondoVerdeOscuro letraVino">
                 <h1>La materia</h1>
             </div>
-            <div class="main"> 
+            <div class="main">
                 <div class="menu fondoVerde letraVino">
                     <ul>
                         <li>¿Que es materia?</li>
                         <li>Propiedades de la materia</li>
                         <li>Clasificacion de la materia</li>
-                        <li>Separacion de mezclas</li>
-                        <li>Video expliicativo</li>
+                        <li><a
+                                href="https://cdn.educ.ar/dinamico/UnidadHtml__get__916873cf-1272-4664-b944-0e2bac50848c/15069-edi/data/4e28e5b3-c858-11e0-83c6-e7f760fda940/index.htm#:~:text=As%C3%AD%2C%20para%20mezclas%20homog%C3%A9neas%20puede,o%20disoluci%C3%B3n%20seguida%20de%20filtraci%C3%B3n.">Laboratorio
+                                Separacion de mezclas</a></li>
                     </ul>
                 </div>
                 <div class="dashboard ">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis adipisci quos quidem error voluptatem ex vel quod eum! Ullam debitis illo architecto nulla incidunt molestiae in reiciendis. Accusantium, repellendus quibusdam!</p>
+                    <div class="Que es materia">
+                        <h2>¿Que es materia</h2>
+                        <p class="parrafo 1 letraAzulOscuro">Con palabras sencillas, podemos decir que materia es todo lo que existe, ocupa un espacio y
+                            se puede pesar. Materia son los cuerpos que vemos, tocamos, medimos, etc. De una forma
+                            más rigurosa, materia se define como:</p>
+                        <h4 class="resaltador letarRojoOscuro textoGrande">Materia es todo lo que existe, tiene masa y
+                            volumen</h4>
+                        <img src="materiaQueEs.jfif" alt="full">
+                    </div>
+
+                    <div class="propiedades fondoVerdeClarito">
+                        <h2 class="propiedades letraAzulOscuro">Propiedades de la materia</h2>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jKe0nBQacWY"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="clasificacion">
+                        <h2 class="clasificacion letraVino large">Clasificacion de la materia</h2>
+                        <p class="parrafo2 letraTexto">La materia puede clasificarse en dos amplias categorías:
+                            sustancias puras y mezclas. Una
+                            sustancia pura es una forma de materia que tiene una composición constante y propiedades que
+                            son constantes en toda la muestra. Las mezclas son combinaciones físicas de dos o más
+                            elementos y/o compuestos. Las mezclas pueden clasificarse como homogéneas o heterogéneas.
+                            Elementos y compuestos son ambos ejemplos de sustancias puras. Los compuestos son sustancias
+                            que están compuestas por más de un tipo de átomo. Los elementos son las sustancias más
+                            simples compuestas por un solo tipo de átomo.</p>
+                    </div>
+                    <div>
+                        <img src="clasificacionMateria.png" alt="clasificacion" height="400px" width="600px">
+                    </div>
                 </div>
             </div>
             <div class="footer fondoVerdeOscuro letraVino">
-                <h2>Pie de pagina</h2>
+                <h2>Tefa Barahona</h2>
             </div>
-    
+
         </div>
     </body>
 </body>
+
 </html>
