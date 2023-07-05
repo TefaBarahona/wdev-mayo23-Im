@@ -17,20 +17,47 @@
     <div class="container-fluid">
         <div class="container">
             <header>
-                <ul class="nav btn btn-info">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Active</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
-                    </li>
-                </ul>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary bg-info text-warning">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Link</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link disabled">Disabled</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
         </div>
         </header>
     </div>
@@ -38,26 +65,82 @@
         <main>
             <div class="container text-center">
                 <div class="row">
-                  <div class="col">
-                    Column
-                  </div>
-                  <div class="col">
-                    Column
-                  </div>
-                  <div class="col">
-                    Column
-                  </div>
+                    <div class="col">
+                        <table class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">#</th>
+                                <th scope="col">First</th>
+                                <th scope="col">Last</th>
+                                <th scope="col">Handle</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                              </tr>
+                              <tr>
+                                <th scope="row">3</th>
+                                <td colspan="2">Larry the Bird</td>
+                                <td>@twitter</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                    </div>
+                    <div class="col">
+                        Column
+                    </div>
+                    <div class="col">
+                        Column
+                    </div>
+                    <div class="col">
+                        Column
+                    </div>
                 </div>
-              </div>
+            </div>
             <div class="row">
                 <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non leo non felis maximus sollicitudin pharetra consequat risus. Praesent ac nunc eu justo porttitor luctus id eget sem. Praesent varius sagittis ante. Nulla tincidunt ultricies neque consectetur tristique. Aenean mollis magna nec pharetra ullamcorper. Proin sem lacus, ultricies in orci sit amet, lobortis mattis enim. Nulla fermentum ligula ac felis sodales aliquet. Vestibulum posuere, massa sit amet vehicula ultrices, urna orci accumsan nunc, id interdum tortor leo ut nibh. Etiam eu metus vel ligula congue maximus. Nunc ornare lorem et consectetur tincidunt. Donec convallis odio ac ipsum pharetra vehicula. Suspendisse condimentum volutpat turpis. Nam cursus tincidunt condimentum. Morbi eu dolor eros.</p>
+                    
+                    <p class="text-warning">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non leo non felis maximus
+                        sollicitudin pharetra consequat risus. Praesent ac nunc eu justo porttitor luctus id eget sem.
+                        Praesent varius sagittis ante. Nulla tincidunt ultricies neque consectetur tristique. Aenean
+                        mollis magna nec pharetra ullamcorper. Proin sem lacus, ultricies in orci sit amet, lobortis
+                        mattis enim. Nulla fermentum ligula ac felis sodales aliquet. Vestibulum posuere, massa sit amet
+                        vehicula ultrices, urna orci accumsan nunc, id interdum tortor leo ut nibh. Etiam eu metus vel
+                        ligula congue maximus. Nunc ornare lorem et consectetur tincidunt. Donec convallis odio ac ipsum
+                        pharetra vehicula. Suspendisse condimentum volutpat turpis. Nam cursus tincidunt condimentum.
+                        Morbi eu dolor eros.</p>
                 </div>
                 <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non leo non felis maximus sollicitudin pharetra consequat risus. Praesent ac nunc eu justo porttitor luctus id eget sem. Praesent varius sagittis ante. Nulla tincidunt ultricies neque consectetur tristique. Aenean mollis magna nec pharetra ullamcorper. Proin sem lacus, ultricies in orci sit amet, lobortis mattis enim. Nulla fermentum ligula ac felis sodales aliquet. Vestibulum posuere, massa sit amet vehicula ultrices, urna orci accumsan nunc, id interdum tortor leo ut nibh. Etiam eu metus vel ligula congue maximus. Nunc ornare lorem et consectetur tincidunt. Donec convallis odio ac ipsum pharetra vehicula. Suspendisse condimentum volutpat turpis. Nam cursus tincidunt condimentum. Morbi eu dolor eros.</p>
+                    <p class="bg-danger subtle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non leo non felis maximus
+                        sollicitudin pharetra consequat risus. Praesent ac nunc eu justo porttitor luctus id eget sem.
+                        Praesent varius sagittis ante. Nulla tincidunt ultricies neque consectetur tristique. Aenean
+                        mollis magna nec pharetra ullamcorper. Proin sem lacus, ultricies in orci sit amet, lobortis
+                        mattis enim. Nulla fermentum ligula ac felis sodales aliquet. Vestibulum posuere, massa sit amet
+                        vehicula ultrices, urna orci accumsan nunc, id interdum tortor leo ut nibh. Etiam eu metus vel
+                        ligula congue maximus. Nunc ornare lorem et consectetur tincidunt. Donec convallis odio ac ipsum
+                        pharetra vehicula. Suspendisse condimentum volutpat turpis. Nam cursus tincidunt condimentum.
+                        Morbi eu dolor eros.</p>
                 </div>
                 <div class="col">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non leo non felis maximus sollicitudin pharetra consequat risus. Praesent ac nunc eu justo porttitor luctus id eget sem. Praesent varius sagittis ante. Nulla tincidunt ultricies neque consectetur tristique. Aenean mollis magna nec pharetra ullamcorper. Proin sem lacus, ultricies in orci sit amet, lobortis mattis enim. Nulla fermentum ligula ac felis sodales aliquet. Vestibulum posuere, massa sit amet vehicula ultrices, urna orci accumsan nunc, id interdum tortor leo ut nibh. Etiam eu metus vel ligula congue maximus. Nunc ornare lorem et consectetur tincidunt. Donec convallis odio ac ipsum pharetra vehicula. Suspendisse condimentum volutpat turpis. Nam cursus tincidunt condimentum. Morbi eu dolor eros.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis non leo non felis maximus
+                        sollicitudin pharetra consequat risus. Praesent ac nunc eu justo porttitor luctus id eget sem.
+                        Praesent varius sagittis ante. Nulla tincidunt ultricies neque consectetur tristique. Aenean
+                        mollis magna nec pharetra ullamcorper. Proin sem lacus, ultricies in orci sit amet, lobortis
+                        mattis enim. Nulla fermentum ligula ac felis sodales aliquet. Vestibulum posuere, massa sit amet
+                        vehicula ultrices, urna orci accumsan nunc, id interdum tortor leo ut nibh. Etiam eu metus vel
+                        ligula congue maximus. Nunc ornare lorem et consectetur tincidunt. Donec convallis odio ac ipsum
+                        pharetra vehicula. Suspendisse condimentum volutpat turpis. Nam cursus tincidunt condimentum.
+                        Morbi eu dolor eros.</p>
                 </div>
             </div>
             <button type="button" class="btn btn-primary">Primary</button>
@@ -74,7 +157,20 @@
     </div>
     <div class="container">
         <footer>
-            <!-- place footer here -->
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                  <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                  </a>
+                  <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Company, Inc</span>
+                </div>
+            
+                <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                  <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                  <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                  <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+                </ul>
+              </footer>
         </footer>
     </div>
     </div>
